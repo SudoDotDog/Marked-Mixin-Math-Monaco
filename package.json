@@ -1,0 +1,37 @@
+{
+  "name": "@sudoo/marked-mixin-math-monaco",
+  "version": "1.0.0",
+  "description": "Monaco Support for Marked Math Mixin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudoDotDog/Sudoo-Marked-Mixin-Math-Monaco.git"
+  },
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudoDotDog/Sudoo-Marked-Mixin-Math-Monaco/issues"
+  },
+  "homepage": "https://github.com/SudoDotDog/Sudoo-Marked-Mixin-Math-Monaco#readme",
+  "peerDependencies": {
+    "@sudoo/marked": "*"
+  },
+  "devDependencies": {
+    "@sudoo/marked": "^3.8.0",
+    "@sudoo/triforce": "^3.8.0"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "sourceMap": true
+  }
+}
