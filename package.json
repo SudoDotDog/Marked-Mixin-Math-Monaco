@@ -13,10 +13,12 @@
   },
   "homepage": "https://github.com/SudoDotDog/Sudoo-Marked-Mixin-Math-Monaco#readme",
   "peerDependencies": {
-    "@sudoo/marked": "*"
+    "@sudoo/marked": "*",
+    "@sudoo/marked-monaco": "*"
   },
   "devDependencies": {
     "@sudoo/marked": "^3.9.2",
+    "@sudoo/marked-monaco": "^1.0.0",
     "@sudoo/triforce": "^3.8.0"
   },
   "nyc": {
