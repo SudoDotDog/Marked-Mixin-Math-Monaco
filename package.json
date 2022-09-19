@@ -12,6 +12,9 @@
     "url": "https://github.com/SudoDotDog/Sudoo-Marked-Mixin-Math-Monaco/issues"
   },
   "homepage": "https://github.com/SudoDotDog/Sudoo-Marked-Mixin-Math-Monaco#readme",
+  "dependencies": {
+    "@sudoo/marked-monaco-mixin": "^1.0.0"
+  },
   "peerDependencies": {
     "@sudoo/marked": "*",
     "@sudoo/marked-monaco": "*"
