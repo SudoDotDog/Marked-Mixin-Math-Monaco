@@ -27,5 +27,5 @@ export const MarkedMathMixinDeclaration: Record<string, string> = {
     max: "(...values: number[]) => number",
     min: "(...values: number[]) => number",
 
-    random: "(min: number, max: number) => number",
+    random: "() => number",
 };
